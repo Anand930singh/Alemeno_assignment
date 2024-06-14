@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
@@ -90,3 +90,7 @@ def urineStripAnalyzer(request):
         })
 
     return JsonResponse({'error': 'Invalid request'}, status=400)
+
+
+def home(request):
+    return HttpResponse("Hello, this is the root endpoint!")
