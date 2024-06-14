@@ -1,7 +1,8 @@
 
-## Alemeno Assignment: Urine Strip Analyzer
+# Alemeno Assignment: Urine Strip Analyzer
 
 This project is a web application that allows users to upload an image of their urine strip and identify the colors on the strip. Each strip has 10 colors, and the application analyzes the image to return the RGB values of these colors.
+
 
 ### Image Processing
 The image processing part of this project is implemented using OpenCV.
@@ -22,8 +23,10 @@ To run openCV code use (change the path of image)
 python imageProcessing.py
 ```
 
+
 ### Hosted Website Link
 https://alemeno-assignment-eight.vercel.app/
+
 
 
 ## Table of Contents
@@ -35,6 +38,8 @@ https://alemeno-assignment-eight.vercel.app/
 - [API Endpoints](#api-endpoints)
 - [Code Structure](#code-structure)
 
+
+
 ## Features
 
 - Upload urine strip images through the web interface.
@@ -42,6 +47,8 @@ https://alemeno-assignment-eight.vercel.app/
 - Display the results in JSON format.
 - User-friendly interface built with React.
 - Backend API built with Django.
+
+
 
 ## Tech Stack
 
@@ -51,12 +58,16 @@ https://alemeno-assignment-eight.vercel.app/
 - **Styling**: CSS
 - **Version Control**: Git
 
+
+
 ## Setup Instructions
+
 
 ### Prerequisites
 
 - Python 3.12.4
 - Git
+
 
 ### Backend Setup
 
@@ -80,6 +91,8 @@ https://alemeno-assignment-eight.vercel.app/
     python manage.py migrate
     python manage.py runserver
   ```
+
+
 
 ### Frontend Setup
 
