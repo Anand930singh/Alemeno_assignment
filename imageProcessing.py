@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the image in grayscale
-image_path = "C:/Users/HP/Desktop/Alemeno_assi/strip_images/image1.jpg"
+image_path = "C:/Users/HP/Desktop/Alemeno_assignment/strip_images/image5.jpg"
 image = cv2.imread(image_path)
 image_gray = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
@@ -75,8 +75,8 @@ print(contour_labels)
 # Resize the image for display
 result = imutils.resize(image_gray, width=320)
 
-# plt.subplot(1, 1, 1)
-# plt.title('Original Grayscale Image')
-# plt.imshow(result, cmap='gray')
-# plt.axis('off')
-# plt.show()
+plt.subplot(1, 1, 1)
+plt.title('Original Grayscale Image')
+plt.imshow(result, cmap='gray')
+plt.axis('off')
+plt.show()
