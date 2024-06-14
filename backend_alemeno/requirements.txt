@@ -1,0 +1,5 @@
+Django==5.0.6
+numpy==1.26.4
+opencv_contrib_python==4.10.0.82
+opencv_python==4.10.0.82
+opencv_python_headless==4.10.0.82
