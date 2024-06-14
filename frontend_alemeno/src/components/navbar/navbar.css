@@ -1,0 +1,13 @@
+.navbar{
+    position:relative;
+    width:100%;
+    background-color:#002b36;
+    padding: 7px 0px 7px 0px;
+
+}
+.navText{
+    font-size: 1.2rem;
+    color: rgb(223, 248, 241);
+    font-weight: 700;
+    margin-left: 1rem;
+}
